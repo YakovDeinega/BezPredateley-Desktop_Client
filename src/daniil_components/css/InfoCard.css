@@ -1,0 +1,70 @@
+.info-card {
+    position: relative;
+
+    height: 34.5rem;
+    width: 19.8125rem;
+
+    border-radius: 0.3125rem;
+    border: 0.0625rem solid rgba(31, 43, 108, 0.1);
+}
+
+.info-card__content {
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.info-card__image {
+    width: 19.8125rem;
+    height: 18.75;
+}
+
+.info-card__header {
+    font-size: 1.625rem;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500; 
+
+    color: rgba(31, 43, 108);
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.info-card__body-text {
+    font-size: 1rem;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400; 
+    line-height: 140%;
+
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.info-card__link {
+    font-size: 1rem;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400; 
+    line-height: 140%;
+
+    color: #159EEC;
+}
+
+.info-card__link::after {
+    content:url('../../images/Vector.svg');
+    margin-left: 0.625rem;
+}
+
+.info-card__icon {
+    position: absolute;
+
+    width: 5rem;
+    height: auto;
+
+    top: 16.25rem;
+    right: 1.25rem;
+}
